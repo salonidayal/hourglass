@@ -1,0 +1,47 @@
+* {
+    padding: 5px;
+
+    margin: 0;
+    align-content: center;
+}
+body
+{
+    
+    font-family: sans-serif;
+}
+
+.main-content
+{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+}
+.textheader
+{
+    background-color: white;
+    padding: 5px;
+}
+.textheader .btn
+{
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-right: 5px;
+}
+.textheader .btn :hover
+{
+    background-color: pink;
+
+}
+
+
+.content
+{
+min-height: 336px;
+border: 1px solid #ecf0f1;
+border-top: 0px;
+padding: 20px;
+}
